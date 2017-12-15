@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_NotifSQL", "Console_NotifSQL.csproj", "{7EED9773-D12D-436C-8AC7-6C2C6AF42CBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EED9773-D12D-436C-8AC7-6C2C6AF42CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EED9773-D12D-436C-8AC7-6C2C6AF42CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EED9773-D12D-436C-8AC7-6C2C6AF42CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EED9773-D12D-436C-8AC7-6C2C6AF42CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50DD1E03-5936-42F5-A055-AA185D717523}
+	EndGlobalSection
+EndGlobal

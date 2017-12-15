@@ -11,6 +11,8 @@ namespace ColorApplication.Controllers
     {
         public ActionResult Index()
         {
+            Initialization();
+            SomeMethod();
             return View();
         }
 
@@ -39,9 +41,10 @@ namespace ColorApplication.Controllers
             // Assume connection is an open SqlConnection.  
             SqlConnection conn = new SqlConnection(@"Data Source=BEK-47674357\sqlexpress;Initial Catalog=NotificationList;Integrated Security=True");
             // Create a new SqlCommand object.  
+            conn.Open();
             using (SqlCommand command = new SqlCommand(
                "select * from notificationList"
-                ))
+                ,conn))
             {
 
                 // Create a dependency and associate it with the SqlCommand.  
@@ -64,7 +67,7 @@ namespace ColorApplication.Controllers
         void OnDependencyChange(object sender,
            SqlNotificationEventArgs e)
         {
-            // Handle the event (for example, invalidate this cache entry).  
+            Contact();
         }
 
         void Termination()
